@@ -1,11 +1,19 @@
 .jumbotron {
-  color: red;
+  color: green;
   font-style: italic;
   background-color: green;
   text-align: center;
+  background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSW3BV9J4dcNgSPxGf3wu-Qm3anCA_zQ-kptKqW7P9wsgYsobTp);
 
 }
 
+
+
 body{
   background-color: #0080ff
+}
+
+#myCarousel{
+  margin-top: auto;
+
 }
