@@ -14,8 +14,8 @@
 
 ## Support and contact details
 
-_rmajlessi@gmail.com_
 _https://Rouz1130.github.io/pizza-order/_
+
 
 ## Technologies Used
 
