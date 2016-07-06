@@ -25,4 +25,4 @@ _Html, Javascript, jquery bootstrap,_
 
 
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_Epicodus_**
