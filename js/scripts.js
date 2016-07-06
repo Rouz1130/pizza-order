@@ -25,6 +25,6 @@ $(document).ready(function() {
    var $type =  $("#speciality option:selected").val();
    var $quantity =  $("#quantity option:selected").val();
    AddPizzaToCart($size, $type, $quantity);
-   $("#results").text("PRICE:$:" + arrayOfPizzas[0].size + "TYPE:" + arrayOfPizzas[0].speciality + "QUANTITY:" + arrayOfPizzas[0].quantity + "TOTAL:$" + arrayOfPizzas[0].size*arrayOfPizzas[0].quantity);
+   $("#results").text("Total Price:$:" + arrayOfPizzas[0].size*arrayOfPizzas[0].quantity);
  });
 });

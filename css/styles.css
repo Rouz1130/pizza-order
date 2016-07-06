@@ -8,11 +8,9 @@
   padding-top: 80px;
 }
 
-
-
 body{
   background-color: #0080ff
-  
+
 }
 
 
@@ -20,6 +18,11 @@ body{
   margin-top: auto;
   padding-top: 110px;
   padding-left: 120px;
+}
 
-
+#results {
+  font-size: 20px;
+  color: red;
+  font-style: italic;
+  padding-top: 30px;
 }
