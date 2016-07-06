@@ -14,26 +14,28 @@
         <h1>Super Mario Bros Pizzeria!</h1>
     </div>
 
-      <div class="form-group">
-        <label for = "Sizetype"> Select size
-          <select class="form-control" id="size">
-            <option></option>
-            <option value="1">Small</opiton>
-            <option value="2">meduim</opiton>
-            <option value="3">Large</opiton>
-            </select>
+    <form id=order>
 
-        </label>
-      </div>
+    <div class="form-group">
+      <label for = "PriceType"> Prices
+        <select class="form-control" id="price">
+          <option></option>
+          <option value="small">Small 10$</opiton>
+          <option value="meduim">Meduim 15$</opiton>
+          <option value="large">Large 20$</opiton>
+          </select>
+      </label>
+      <p>Our speciality pizzas are all same price , regardless of the toppings</p>
+    </div>
 
       <div class="form-group">
         <label for = "speciality"> Pick a specialty
           <select class="form-control" id="sepciality">
             <option></option>
-            <option value="1">Pepperoni</opiton>
-            <option value="2">Meat lover</opiton>
-            <option value="3">Hawaiian</opiton>
-            <option value="4">Veggie</opiton>
+            <option value="pepperoni">Pepperoni</opiton>
+            <option value="meat lover">Meat lover</opiton>
+            <option value="hawaiian">Hawaiian</opiton>
+            <option value="veggie">Veggie</opiton>
             </select>
         </label>
       </div>
@@ -53,20 +55,10 @@
       </div>
 
 
-      <div class="form-group">
-        <label for = "PriceType"> Prices
-          <select class="form-control" id="price">
-            <option></option>
-            <option value="1">Small 10$</opiton>
-            <option value="2">Meduim 15$</opiton>
-            <option value="3">Large 20$</opiton>
-            </select>
-        </label>
-        <p>Our speciality pizzas are all same price , regardless of the toppings</p>
-      </div>
 
-       <button type="submit" class="btn">submit</button>
 
+       <button type="submit" class="btn" id="submitButton">submit</button>
+       </form>
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">

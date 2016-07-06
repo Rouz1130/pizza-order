@@ -1,26 +1,28 @@
-fucntion PizzaOrder(speciality){
-  this.speciality = speciality;
-  this.quantity  = [0]
+var sizes = {
+small : 10,
+meduim : 15,
+large : 20
+};
+
+
+function pizza(size, specialty, quantity) {
+  this.size =size;
+  this.specialty = specialty;
+  this.quantity = quantity;
 }
 
-funtion quantity(one,two,three,four){
-  this.one = one;
-  this.two = two;
-  this.three = three;
-  this.four = four;
+var arrayOfPizzas = [];
+
+function AddPizzaToCart(size, specialty,quantity){
+  var pizzaToAddToCart = new pizza(sizes[size],specialty, quantity);
+  arrayOfPizzas.push(pizzaToAddToCart);
+
 }
 
-PizzaOrder.prototype.pizzaOrder = funtion() {
-  var = pizzaCost = 0;
-  if (ths.one === "small") {
-    price += 10;
- } else if (this.two === "meduim"){
-    price += 15;
- } else if (this.three === "Large"){
-    price += 20;
- }
-if (this.quantity.length === 1){
-  if(this.quantity[0].small == )
-  prie += 10;
-}
-  if (this.quantity[1].meduim === )
+$(document).ready(function() {
+ $("form#user-form").submit(function(event){
+ event.preventDefault();
+ AddPizzaToCart();
+
+
+}};
