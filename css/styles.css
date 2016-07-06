@@ -21,8 +21,22 @@ body{
 }
 
 #results {
-  font-size: 20px;
+  font-size: 30px;
   color: red;
   font-style: italic;
   padding-top: 30px;
+}
+
+#price{
+  font-size: 20px;
+  color : #cccc00
+}
+
+#speciality{
+  font-size: 20px;
+  color: #cccc00
+}
+#quantity{
+  font-size: 20px;
+  color: #cccc00
 }
