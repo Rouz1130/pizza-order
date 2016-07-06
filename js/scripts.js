@@ -6,8 +6,8 @@ large : 20
 
 
 function pizza(size, specialty, quantity) {
-  this.size =size;
-  this.specialty = specialty;
+  this.size = size;
+  this.speciality = specialty;
   this.quantity = quantity;
 }
 
@@ -16,13 +16,15 @@ var arrayOfPizzas = [];
 function AddPizzaToCart(size, specialty,quantity){
   var pizzaToAddToCart = new pizza(sizes[size],specialty, quantity);
   arrayOfPizzas.push(pizzaToAddToCart);
-
 }
 
 $(document).ready(function() {
- $("form#user-form").submit(function(event){
- event.preventDefault();
- AddPizzaToCart();
-
-
-}};
+ $("#submitButton").click(function(event){
+   event.preventDefault();
+   var $size =  $("#price option:selected").val();
+   var $type =  $("#speciality option:selected").val();
+   var $quantity =  $("#quantity option:selected").val();
+   AddPizzaToCart($size, $type, $quantity);
+   $("#results").text("PRICE:$:" + arrayOfPizzas[0].size + "TYPE:" + arrayOfPizzas[0].speciality + "QUANTITY:" + arrayOfPizzas[0].quantity + "TOTAL:$" + arrayOfPizzas[0].size*arrayOfPizzas[0].quantity);
+ });
+});
